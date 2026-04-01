@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SPS Apps</string>
+    <string name="judul">RUDIO24SI</string>
+    <color name="abuabu">#313131</color>
 </resources>
