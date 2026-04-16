@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
         android:id="@+id/action_search"
-        android:title="Search"
+        android:title="Cari"
         android:icon="@android:drawable/ic_menu_search"
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/action_settings"
-        android:title="Settings"
-        android:icon="@android:drawable/ic_menu_preferences"
-        app:showAsAction="never" />
+        android:id="@+id/action_share"
+        android:title="Bagikan"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/share_whatsapp" android:title="WhatsApp" />
+            <item android:id="@+id/share_email" android:title="E-mail" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_settings" android:title="Pengaturan" app:showAsAction="never" />
 </menu>
