@@ -2,4 +2,6 @@
     <string name="app_name">SPS Apps</string>
     <string name="judul">RUDIO24SI</string>
     <color name="abuabu">#313131</color>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
