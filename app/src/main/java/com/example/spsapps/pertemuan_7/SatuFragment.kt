@@ -1,4 +1,4 @@
-package com.example.spsapps.pertemuan_6
+package com.example.spsapps.pertemuan_7
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.spsapps.R
-
 class SatuFragment : Fragment() {
 
     override fun onCreateView(

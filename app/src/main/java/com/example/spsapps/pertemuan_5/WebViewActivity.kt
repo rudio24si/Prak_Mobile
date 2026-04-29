@@ -22,8 +22,6 @@ class WebViewActivity : AppCompatActivity() {
 
         binding.webView.apply {
             webViewClient = WebViewClient()
-
-            // IMPROVE: Animasi Progress Loading
             webChromeClient = object : WebChromeClient() {
                 override fun onProgressChanged(view: WebView?, newProgress: Int) {
                     binding.progressBar.apply {
@@ -38,7 +36,6 @@ class WebViewActivity : AppCompatActivity() {
             loadUrl("https://merdeka.com")
         }
 
-        // IMPROVE: Auto hide toolbar on scroll
         binding.webView.setOnScrollChangeListener { _, _, scrollY, _, oldScrollY ->
             if (scrollY > oldScrollY) binding.appBar.setExpanded(false, true)
             else if (scrollY < oldScrollY) binding.appBar.setExpanded(true, true)
