@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F0F4F8"
-    tools:context=".pertemuan_7.SatuFragment">
+    tools:context=".Home.pertemuan_7.SatuFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

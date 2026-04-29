@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="#313131"
     android:padding="24dp"
-    tools:context=".pertemuan_3.ThirdResultActivity">
+    tools:context=".Home.pertemuan_3.ThirdResultActivity">
 
     <ImageView
         android:id="@+id/iconSuccess"

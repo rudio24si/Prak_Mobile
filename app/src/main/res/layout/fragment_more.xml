@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F0F4F8"
-    tools:context=".Home.pertemuan_7.SatuFragment">
+    tools:context=".More.MoreFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,9 +17,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#E6F1FB"
+            android:background="#EDE7F6"
             android:text="FRAGMENT"
-            android:textColor="#185FA5"
+            android:textColor="#5E35B1"
             android:textSize="10sp"
             android:textStyle="bold"
             android:letterSpacing="0.15"
@@ -28,33 +28,30 @@
             android:paddingTop="6dp"
             android:paddingBottom="6dp" />
 
-        <!-- Nomor Besar -->
+        <!-- Icon More -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="1"
-            android:textColor="#1A3A5C"
-            android:textSize="96sp"
-            android:textStyle="bold"
-            android:lineSpacingExtra="-8dp" />
+            android:layout_marginTop="16dp"
+            android:text="⚙️"
+            android:textSize="64sp" />
 
         <!-- Label -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Satu Fragment"
+            android:layout_marginTop="12dp"
+            android:text="More"
             android:textColor="#1A3A5C"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginTop="-8dp" />
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
         <!-- Deskripsi -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="Ini adalah fragment pertama.\nFragment digunakan untuk membangun\nbagian-bagian UI secara modular."
+            android:layout_marginTop="10dp"
+            android:text="Temukan lebih banyak fitur\ndan pengaturan di sini."
             android:textColor="#94A3B8"
             android:textSize="13sp"
             android:gravity="center"
@@ -65,7 +62,7 @@
             android:layout_width="40dp"
             android:layout_height="3dp"
             android:layout_marginTop="24dp"
-            android:background="#1A3A5C" />
+            android:background="#5E35B1" />
 
     </LinearLayout>
 

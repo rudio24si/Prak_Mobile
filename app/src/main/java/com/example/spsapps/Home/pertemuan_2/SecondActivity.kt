@@ -1,4 +1,4 @@
-package com.example.spsapps.pertemuan_2
+package com.example.spsapps.Home.pertemuan_2
 
 import android.os.Bundle
 import android.util.Log

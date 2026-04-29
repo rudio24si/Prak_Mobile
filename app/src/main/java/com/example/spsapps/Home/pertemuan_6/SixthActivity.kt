@@ -1,4 +1,4 @@
-package com.example.spsapps.pertemuan_6
+package com.example.spsapps.Home.pertemuan_6
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

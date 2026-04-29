@@ -1,4 +1,4 @@
-package com.example.spsapps.pertemuan_7
+package com.example.spsapps.Home.pertemuan_7
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -9,7 +9,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.example.spsapps.R
 import com.example.spsapps.databinding.ActivitySeventhBinding
-import com.example.spsapps.databinding.ActivityWebViewBinding
 
 class SeventhActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySeventhBinding

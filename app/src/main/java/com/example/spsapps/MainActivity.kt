@@ -8,11 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.spsapps.databinding.ActivityMainBinding
-import com.example.spsapps.pertemuan_4.FourthActivity
+import com.example.spsapps.Home.pertemuan_4.FourthActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import androidx.core.content.edit
-import com.example.spsapps.pertemuan_6.SixthActivity
-import com.example.spsapps.pertemuan_7.SeventhActivity
+import com.example.spsapps.Home.pertemuan_6.SixthActivity
+import com.example.spsapps.Home.pertemuan_7.SeventhActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
