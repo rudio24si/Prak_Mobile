@@ -14,16 +14,16 @@ class MessageFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val messageList = listOf(
-        MessageModel("Alya", "Halo! Apa kabar?", "https://avatar.iran.liara.run/public/1"),
-        MessageModel("Budi", "Sudah makan?", "https://avatar.iran.liara.run/public/2"),
-        MessageModel("Citra", "Jangan lupa tugasnya ya!", "https://avatar.iran.liara.run/public/3"),
-        MessageModel("Dika", "Besok kita rapat jam 9", "https://avatar.iran.liara.run/public/4"),
-        MessageModel("Eka", "Nice job kemarin!", "https://avatar.iran.liara.run/public/5"),
-        MessageModel("Fajar", "Lagi ngapain?", "https://avatar.iran.liara.run/public/6"),
-        MessageModel("Gita", "Boleh minta tolong?", "https://avatar.iran.liara.run/public/7"),
-        MessageModel("Hana", "Lihat email ya", "https://avatar.iran.liara.run/public/8"),
-        MessageModel("Irfan", "Oke noted", "https://avatar.iran.liara.run/public/9"),
-        MessageModel("Joko", "Sampai jumpa besok", "https://avatar.iran.liara.run/public/10")
+        MessageModel("Alya", "Halo! Apa kabar?", "https://randomuser.me/api/portraits/women/20.jpg"),
+        MessageModel("Budi", "Sudah makan?", "https://randomuser.me/api/portraits/men/33.jpg"),
+        MessageModel("Citra", "Jangan lupa tugasnya ya!", "https://randomuser.me/api/portraits/women/12.jpg"),
+        MessageModel("Dika", "Besok kita rapat jam 9", "https://randomuser.me/api/portraits/men/32.jpg"),
+        MessageModel("Eka", "Nice job kemarin!", "https://randomuser.me/api/portraits/men/35.jpg"),
+        MessageModel("Fajar", "Lagi ngapain?", "https://randomuser.me/api/portraits/men/10.jpg"),
+        MessageModel("Gita", "Boleh minta tolong?", "https://randomuser.me/api/portraits/women/13.jpg"),
+        MessageModel("Hana", "Lihat email ya", "https://randomuser.me/api/portraits/women/30.jpg"),
+        MessageModel("Irfan", "Oke noted", "https://randomuser.me/api/portraits/men/32.jpg"),
+        MessageModel("Joko", "Sampai jumpa besok", "https://randomuser.me/api/portraits/women/16.jpg")
     )
 
     override fun onCreateView(
