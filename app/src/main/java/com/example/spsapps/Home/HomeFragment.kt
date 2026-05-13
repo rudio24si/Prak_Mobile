@@ -13,6 +13,7 @@ import com.example.spsapps.Home.pertemuan_4.FourthActivity
 import com.example.spsapps.Home.pertemuan_5.FifthActivity
 import com.example.spsapps.Home.pertemuan_6.SixthActivity
 import com.example.spsapps.Home.pertemuan_7.SeventhActivity
+import com.example.spsapps.Home.pertemuan_9.NinthActivity
 
 class HomeFragment : Fragment() {
 
@@ -62,6 +63,9 @@ class HomeFragment : Fragment() {
 
         binding.btnPertemuan7.setOnClickListener {
             startActivity(Intent(requireContext(), SeventhActivity::class.java))
+        }
+        binding.btnPertemuan9.setOnClickListener {
+            startActivity(Intent(requireContext(), NinthActivity::class.java))
         }
     }
 
