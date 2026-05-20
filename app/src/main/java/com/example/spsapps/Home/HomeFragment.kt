@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.spsapps.Home.pertemuan_10.TenthActivity
 import com.example.spsapps.databinding.FragmentHomeBinding
 import com.example.spsapps.Home.pertemuan_3.ThirdActivity
 import com.example.spsapps.Home.pertemuan_4.FourthActivity
@@ -66,6 +67,9 @@ class HomeFragment : Fragment() {
         }
         binding.btnPertemuan9.setOnClickListener {
             startActivity(Intent(requireContext(), NinthActivity::class.java))
+        }
+        binding.btnPertemuan10.setOnClickListener {
+            startActivity(Intent(requireContext(), TenthActivity::class.java))
         }
     }
 
