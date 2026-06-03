@@ -18,7 +18,6 @@
             app:layout_scrollFlags="scroll|enterAlways"
             app:title="Message"
             app:titleTextColor="@android:color/white" />
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <ListView
