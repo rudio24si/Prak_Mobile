@@ -1,4 +1,4 @@
-package com.example.spsapps.Home.pertemuan_10
+package com.example.spsapps.Home.pertemuan_13
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -6,28 +6,29 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.spsapps.Home.pertemuan_10.TenthTabsAdapter
 import com.example.spsapps.R
-import com.example.spsapps.databinding.ActivityNinthBinding
 import com.example.spsapps.databinding.ActivityTenthBinding
+import com.example.spsapps.databinding.ActivityThirteenthBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
-class TenthActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityTenthBinding
+class ThirteenthActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityThirteenthBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
 
-        binding = ActivityTenthBinding.inflate(layoutInflater)
+        binding = ActivityThirteenthBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        enableEdgeToEdge()
-//        setContentView(R.layout.activity_tenth)
+//        setContentView(R.layout.activity_thirteenth)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        setSupportActionBar(binding.toolbar5)
+        setSupportActionBar(binding.toolbar6)
         supportActionBar?.apply {
 //            title = "Activity Fifth"
 //            subtitle = "Ini adalah subtitle"
@@ -37,7 +38,7 @@ class TenthActivity : AppCompatActivity() {
         }
 
         // 1. Inisialisasi Adapter
-        val tabsAdapter = TenthTabsAdapter(this)
+        val tabsAdapter = ThirteenthTabsAdapter(this)
 
         // 2. Set adapter ke ViewPager2
         binding.viewPager.adapter = tabsAdapter
@@ -47,7 +48,7 @@ class TenthActivity : AppCompatActivity() {
             // Atur judul untuk setiap tab
             when (position) {
                 0 -> {
-                    tab.text = "Tab A"
+                    tab.text = "Tab Capture"
                     //Tambah Icon
                     tab.icon = ContextCompat.getDrawable(  this, R.drawable.ic_home)
                     //Tambah Badge Tanpa nomor (hanya titik)
@@ -55,7 +56,7 @@ class TenthActivity : AppCompatActivity() {
                     badge.isVisible = true
                 }
                 1 -> {
-                    tab.text = "Tab B"
+                    tab.text = "Tab QR Code"
                     //Tambah Icon
                     tab.icon = ContextCompat.getDrawable(  this, R.drawable.ic_home)
                     //Tambah Badge dengan nomor
@@ -64,7 +65,7 @@ class TenthActivity : AppCompatActivity() {
                     badge.number = 5
                 }
                 2 -> {
-                    tab.text = "Produk"
+                    tab.text = "Scan"
                     //Tambah Icon
                     tab.icon = ContextCompat.getDrawable(  this, R.drawable.ic_home)
                     //Tambah Badge Tanpa nomor (hanya titik)

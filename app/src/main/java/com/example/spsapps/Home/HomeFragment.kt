@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.spsapps.Data.API.PhotoApiClient
 import com.example.spsapps.Home.Photo.PhotoAdapter
 import com.example.spsapps.Home.pertemuan_10.TenthActivity
+import com.example.spsapps.Home.pertemuan_13.ThirteenthActivity
 import com.example.spsapps.databinding.FragmentHomeBinding
 import com.example.spsapps.Home.pertemuan_3.ThirdActivity
 import com.example.spsapps.Home.pertemuan_4.FourthActivity
@@ -21,6 +22,8 @@ import com.example.spsapps.Home.pertemuan_5.FifthActivity
 import com.example.spsapps.Home.pertemuan_6.SixthActivity
 import com.example.spsapps.Home.pertemuan_7.SeventhActivity
 import com.example.spsapps.Home.pertemuan_9.NinthActivity
+// TODO: Import Activity Pertemuan 13 Anda di sini, contoh:
+// import com.example.spsapps.Home.pertemuan_13.ThirteenthActivity
 import kotlinx.coroutines.launch
 
 class HomeFragment : Fragment() {
@@ -72,11 +75,18 @@ class HomeFragment : Fragment() {
         binding.btnPertemuan7.setOnClickListener {
             startActivity(Intent(requireContext(), SeventhActivity::class.java))
         }
+
         binding.btnPertemuan9.setOnClickListener {
             startActivity(Intent(requireContext(), NinthActivity::class.java))
         }
+
         binding.btnPertemuan10.setOnClickListener {
             startActivity(Intent(requireContext(), TenthActivity::class.java))
+        }
+
+        // TAMBAHAN: Click Listener untuk Pertemuan 13
+        binding.btnPertemuan13.setOnClickListener {
+            startActivity(Intent(requireContext(), ThirteenthActivity::class.java))
         }
 
         loadPhoto()
